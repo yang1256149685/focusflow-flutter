@@ -19,6 +19,10 @@ class MemoryRepo implements TaskRepository {
 }
 
 void main() {
+  test('task IDs are nonempty and unique', () {
+    final ids = List.generate(100, (_) => Task.newId());
+    expect(ids.toSet().length, 100);
+  });
   test('CRUD and restart preserve data; clearing does not reseed', () async {
     final repo = MemoryRepo(), store = TaskStore(MemoryRepo());
     final s = TaskStore(repo);

@@ -17,7 +17,7 @@ class Task {
     this.completedAt,
   });
   static String newId() =>
-      '${DateTime.now().microsecondsSinceEpoch}-${Random.secure().nextInt(1 << 32)}';
+      '${DateTime.now().microsecondsSinceEpoch}-${Random.secure().nextInt(0x100000000)}';
   bool get done => status == 'done';
   bool overdue(DateTime now) =>
       !done &&
