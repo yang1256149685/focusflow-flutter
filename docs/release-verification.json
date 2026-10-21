@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/yang1256149685/focusflow-flutter",
+  "demo": "https://yang1256149685.github.io/focusflow-flutter/",
+  "verified_at": "2026-10-21T10:43:57.057291+08:00",
+  "deployment_mode": "Flutter Web release",
+  "deployed_build_source_commit": "55cd365ddf3382b3387122493abc2fac6a20f6d3",
+  "ci_code_verification": "https://github.com/yang1256149685/focusflow-flutter/actions/runs/39534136871",
+  "ci_code_verification_result": "success",
+  "screenshots": 7,
+  "note": "Subsequent commits add documentation/evaluation evidence; deployed application source remains the same.",
+  "android": "Debug APK built; no device or emulator runtime validation",
+  "ios": "Not built or run"
+}

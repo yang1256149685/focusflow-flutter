@@ -2,6 +2,8 @@
 
 个人原创 Flutter 任务管理作品。任务编辑、项目筛选、截止日期与完成状态、本地持久化、统计、主题和 JSON 备份形成完整流程。AI 辅助开发，示例任务为虚构内容；无真实客户或商业交付声明。
 
+源码：[GitHub 仓库](https://github.com/yang1256149685/focusflow-flutter) · 在线体验：[打开演示](https://yang1256149685.github.io/focusflow-flutter/)（公开静态版）。
+
 ![今日概览](docs/screenshots/01-overview.png)
 ![任务编辑](docs/screenshots/03-editor.png)
 

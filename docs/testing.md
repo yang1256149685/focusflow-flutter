@@ -19,3 +19,5 @@
 测试没有掩盖这个缺陷：最初仅原生 Dart 单元测试通过仍不代表 Web 通过，最后状态以上述浏览器实测为准。Screenshot 01–07 均来自实际 Flutter Web；详见 evidence.json。
 
 Web 构建有 Flutter 字体裁剪/可选 Cupertino 字体提示，构建成功；本项目没有使用 Cupertino 图标。当前截图为桌面浏览器，不是 Android 或 iPhone 证据。
+
+GitHub 首轮代码 CI：[成功运行记录](https://github.com/yang1256149685/focusflow-flutter/actions/runs/39534136871)。Pages 部署成功，公开演示已实际浏览器操作验证，部署源提交见 release-verification.json。后续仅追加文档/评估材料，不将文档提交 SHA 冒充已部署源。
