@@ -1,0 +1,160 @@
+[
+  {
+    "file": "docs/screenshots/01-overview.png",
+    "scenario": "修复后的今日概览与真实任务统计",
+    "mode": "Flutter Web release",
+    "steps": [
+      "打开最终发布构建",
+      "读取持久化任务",
+      "截止日期随本地自然日变化"
+    ],
+    "captured_at": "2026-10-21T02:33:51.958Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "b47207dc6bfea82ed7f68639707498dc6448cd08095bff353e8965a057bb0c40",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/02-tasks.png",
+    "scenario": "最终版本的任务列表与项目状态",
+    "mode": "Flutter Web release",
+    "steps": [
+      "打开所有任务",
+      "读取真实任务列表"
+    ],
+    "captured_at": "2026-10-21T02:33:52.360Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "bd07816f88204085057e0d6e22dbaba4119f8ac62f24fa6eea1baf475acf743d",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/03-editor.png",
+    "scenario": "最终版本的新建任务编辑表单",
+    "mode": "Flutter Web release",
+    "steps": [
+      "打开新建任务",
+      "输入原创标题和作品集项目"
+    ],
+    "captured_at": "2026-10-21T02:34:01.382Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "6e7442cf36cc4ca2b3b344e61a6763bb37076322f75583b7328985c0dfc2b356",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/04-persisted.png",
+    "scenario": "新任务保存后刷新仍可检索",
+    "mode": "Flutter Web release",
+    "steps": [
+      "在真实表单创建任务",
+      "刷新发布版页面",
+      "搜索任务并确认仍存在"
+    ],
+    "captured_at": "2026-10-21T02:35:18.693Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "5ef8dc191df7a8893cb6eed149eb899a93d8592370088239318a68ad2f96c6fc",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/05-statistics.png",
+    "scenario": "完成任务后由真实数据生成统计",
+    "mode": "Flutter Web release",
+    "steps": [
+      "勾选新建任务完成",
+      "打开进度统计",
+      "核对完成数由三变四"
+    ],
+    "captured_at": "2026-10-21T02:35:19.361Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "c90f0ba2942d6d178f9e657d57fb51efb964dc89d40586768fd2097f6b405ac8",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/06-settings.png",
+    "scenario": "本机档案、主题、备份和隐私说明",
+    "mode": "Flutter Web release",
+    "steps": [
+      "打开设置",
+      "查看本机备份恢复、主题和数据边界"
+    ],
+    "captured_at": "2026-10-21T02:35:47.542Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "eb04e9942f64edc1b44b4230f85b71d89ecdd8a68099c0f47cc61184edf65945",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/07-empty.png",
+    "scenario": "筛选无匹配结果的真实空状态",
+    "mode": "Flutter Web release",
+    "steps": [
+      "输入不存在的任务关键词",
+      "列表过滤为零",
+      "显示空状态而不伪造任务"
+    ],
+    "captured_at": "2026-10-21T02:35:47.916Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "af891eacc04baa060e5b87dc4809a18b9189a076",
+    "sha256": "198dfdde142e9a1c8a84969432c109f0a0b709aab1f6049ce2eddaf790dfa493",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  }
+]
